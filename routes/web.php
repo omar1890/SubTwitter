@@ -16,4 +16,3 @@ Route::get('/', function () {
 });
 
 Route::post('userTweets', 'TwitterApiController@getTweetsOfUserName');
-  //  return Twitter::getUserTimeline(['screen_name' => 'thujohn', 'count' => 1, 'format' => 'json']);
